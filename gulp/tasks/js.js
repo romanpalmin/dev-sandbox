@@ -1,19 +1,13 @@
 /**
- *
  * Компилирует JS
- *
- *
  */
 var gulp = require('gulp'),
-    concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     rename = require('gulp-rename'),
     webpack = require('gulp-webpack'),
     sourcemaps = require('gulp-sourcemaps'),
     config = require('../config').js,
     gutil = require('gulp-util');
-
-console.log('Destination: ' + config.dest);
 
 gulp.task('js', function () {
     return gulp.src(config.src)

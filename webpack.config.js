@@ -1,10 +1,7 @@
 /**
  * webpack-конфиг
  */
-
-var path = require('path');
 module.exports = {
-/*    devtool: 'source-map',*/
     output: {
         path: require("path").resolve("./src/assets/js"),
         filename: 'bundle.js'

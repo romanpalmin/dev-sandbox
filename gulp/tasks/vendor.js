@@ -1,5 +1,5 @@
 /**
- * Копирует index.html
+ * Копирует вендорные библиотеки и файлы
  */
 var gulp = require('gulp'),
     config = require('../config');

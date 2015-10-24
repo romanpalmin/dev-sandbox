@@ -1,7 +1,5 @@
 /**
- *
  * Компилирует css
- *
  */
 var gulp = require('gulp'),
     cssmin = require('gulp-cssmin'),
