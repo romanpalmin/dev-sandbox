@@ -53,7 +53,7 @@ module.exports = {
     },
 
     images: {
-        src: [srcAssets + '/**/images/**/*.*'],
+        src: [srcAssets + '/**/images/**/*'],
         dest: distAssets + '/images'
     },
 

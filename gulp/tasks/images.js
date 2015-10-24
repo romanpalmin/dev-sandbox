@@ -8,6 +8,7 @@ var gulp = require('gulp'),
 
 gulp.task('images', function () {
     return gulp.src(config.src)
+        .pipe(imagemin())
         .pipe(flatten())
         .pipe(gulp.dest(config.dest))
 });
