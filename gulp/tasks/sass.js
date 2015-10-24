@@ -12,6 +12,7 @@ var rename = require('gulp-rename');
 
 gulp.task('sass', function () {
     return gulp.src(config.src)
+        .pipe(sass())
         .pipe(rename({suffix: '.compiled'}))
         .pipe(gulp.dest(config.dest));
 });

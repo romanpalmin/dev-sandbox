@@ -73,5 +73,9 @@ module.exports = {
             js: distAssets + '/js/vendor',
             css: distAssets + '/css/vendor'
         }
+    },
+
+    gc:{
+        src:[src + '/**/*.compiled.css']
     }
 };
