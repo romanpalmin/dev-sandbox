@@ -6,12 +6,12 @@
 
 'use strict';
 var gulp = require('gulp');
-var config = require('../config').js;
+var config = require('../config').sass;
 var sass = require('gulp-sass');
 var rename = require('gulp-rename');
 
 gulp.task('sass', function () {
-    return gulp.src(config.sass.src)
+    return gulp.src(config.src)
         .pipe(rename({suffix: '.compiled'}))
-        .pipe(gulp.dest(config.sass.dest));
+        .pipe(gulp.dest(config.dest));
 });
