@@ -1,0 +1,26 @@
+.b-container{
+    width: 70%;
+    margin: 0 auto;
+/*    background-color: #888888;*/
+    text-align: center;
+    padding: 20px;
+}
+
+.b-fieldset-settings {
+    height: 50px;
+    padding: 10px 30px 30px;
+    border: 1px dotted #fe7f00;
+    border-radius: 5px;
+}
+
+.noUi-pips-horizontal {
+    padding: 0;
+}
+
+.noUi-origin {
+    background-color: white;
+}
+
+.noUi-base {
+    background-color: #f8b951;
+}

@@ -1,3 +1,6 @@
 /**
- * Created by Roman on 24.10.2015.
+ *  Проверка
  */
+let a = 10;
+var b = a*2;
+console.log(b);

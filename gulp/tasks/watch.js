@@ -10,9 +10,9 @@
 // Следит за изменениями в файлах
 
 var gulp   = require('gulp');
-var config = require('../config').watch;
+var config = require('../config');
 
 gulp.task('watch', function () {
-    gulp.watch(config.css.src, ['cssCompile']);
-    gulp.watch(config.js.src, ['jsCompile']);
+    gulp.watch(config.css.src, ['css']);
+    gulp.watch(config.js.src, ['js']);
 });
