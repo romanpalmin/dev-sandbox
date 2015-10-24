@@ -58,10 +58,10 @@ module.exports = {
     },
 
     deploy: {
-        host: 'host',
-        user: 'user',
-        pass: 'pass',
-        remotePath: '/var/path/to'
+        host: 'ftp.jromkin.ru',
+        user: 'host1331409_jromkin',
+        pass: 'qwerty'/*,
+        remotePath: '/home/host1331409/jromkin.ru/htdocs/test'*/
     },
 
     vendors: {
