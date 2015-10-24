@@ -5,8 +5,8 @@
 
 var gulp   = require('gulp');
 var del    = require('del');
-var config = require('../config').clean;
+var config = require('../config').gc;
 
 gulp.task('gc', function (cb) {
-    return del(config.gc.src, cb);
+    return del(config.src, cb);
 });
