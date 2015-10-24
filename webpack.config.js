@@ -4,7 +4,7 @@
 module.exports = {
     output: {
         path: require("path").resolve("./src/assets/js"),
-        filename: 'bundle.js'
+        filename: 'index.js'
     },
     module: {
         loaders: [

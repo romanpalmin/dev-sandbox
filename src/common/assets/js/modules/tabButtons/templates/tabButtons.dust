@@ -1,4 +1,0 @@
-<div class="tab-buttons_wrapper" id="tab-buttons_wrapper__{id}">
-{#menuItems}
-<div class="tab-buttons_btn tab-buttons_btn-{id}" name="{name}">{value}</div>
-{/menuItems}

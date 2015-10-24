@@ -44,7 +44,7 @@ module.exports = {
             '!' + srcAssets + '/js/*.min.js',
             '!' + srcAssets + '/js/modules/**/*.min.js'
         ],
-        destName: 'bundle.js',
+        destName: 'index.js',
         dest: distAssets + '/js'
     },
 

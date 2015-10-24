@@ -1,12 +1,12 @@
 {
   "name": "dev-sandbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "Build system prototype",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Roman Palmin",
+  "author": "Author",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^5.8.25",
