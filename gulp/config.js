@@ -21,15 +21,21 @@ module.exports = {
     },
 
     templates: {
-        src: [srcAssets + '/modules/**/*.dust',
+        src: [srcAssets + '/js/modules/**/*.dust',
             srcAssets + '/templates/**/*.dust'],
         dest: distAssets + '/templates'
     },
 
     css: {
-        src: [srcAssets + '/modules/**/*.css', '!' + srcAssets + '/modules/**/*.min.css',
-            srcAssets + '/styles/*.css', '!' + srcAssets + '/styles/*.min.css'],
+        src: [srcAssets + '/js/modules/**/*.css', '!' + srcAssets + '/modules/**/*.min.css',
+            srcAssets + '/styles/**/*.css', '!' + srcAssets + '/styles/*.min.css'],
         dest: distAssets + '/css'
+    },
+
+    sass:{
+        src: [srcAssets + '/js/modules/**/*.scss',
+            srcAssets + '/styles/**/*.scss'],
+        dest: srcAssets + '/styles'
     },
 
     js: {
@@ -58,10 +64,10 @@ module.exports = {
         remotePath: '/var/path/to'
     },
 
-    vendors:{
-        src : {
+    vendors: {
+        src: {
             js: ['./node_modules/dustjs-linkedin/dist/dust-core.min.js'],
-            css : []
+            css: []
         },
         dist: {
             js: distAssets + '/js/vendor',
